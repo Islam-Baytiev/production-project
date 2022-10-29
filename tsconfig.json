@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "ESNext",
+    //в какую спецификацию компилирует: для поддержки большинства браузеров
+    "target": "es5",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "node",
+    //позволяет работать с пакетами которые
+    //использует common js как с обычными пакетами с помощью import
+    "esModuleInterop": true,
+    //для поддержки дефаулт импорта без звездочки
+    "allowSyntheticDefaultImports": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
