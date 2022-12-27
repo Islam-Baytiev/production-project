@@ -8,6 +8,10 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    },
     //позволяет работать с пакетами которые
     //использует common js как с обычными пакетами с помощью import
     "esModuleInterop": true,
