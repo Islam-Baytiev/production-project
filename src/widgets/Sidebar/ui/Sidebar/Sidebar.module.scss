@@ -5,9 +5,11 @@
   position: relative;
   transition: 0.3s;
 }
+
 .collapsed {
   width: var(--sidebar-width-collapse);
 }
+
 .switcher {
   position: absolute;
   bottom: 20px;
