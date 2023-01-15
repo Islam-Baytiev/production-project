@@ -38,10 +38,23 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
     'no-underscore-dangle': 'off',
-    'i18next/no-literal-string': ['error', { markupOnly: true }],
-    'max-len': ['error', { ignoreComments: true }],
+    'i18next/no-literal-string': ['error',
+      {
+        markupOnly: true,
+        ignoreAtttibute: ['data=testid'],
+      },
+    ],
+    'max-len': ['error', { ignoreComments: true, code: 110 }],
   },
   globals: {
     __IS_DEV__: true,
   },
+  overrides: [
+    {
+      files: ['**/src/**/*.test.{ts,tsx}'],
+      rules: {
+        'i18next/no-literal-string': 'off',
+      },
+    },
+  ],
 };
