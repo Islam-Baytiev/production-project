@@ -1,5 +1,5 @@
 import {
-  fireEvent, getByTestId, render, screen,
+  fireEvent, screen,
 } from '@testing-library/react';
 import { renderWithTranslation }
   from 'shared/lib/tests/renderWithTranslation/renderWithTranslation';
