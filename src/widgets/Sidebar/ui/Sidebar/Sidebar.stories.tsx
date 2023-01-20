@@ -6,7 +6,7 @@ import { Theme } from 'app/providers/ThemeProvider';
 import { Sidebar } from './Sidebar';
 
 export default {
-  title: 'widgets/Navbar',
+  title: 'widgets/Sidebar',
   component: Sidebar,
   argTypes: {
     backgroundColor: { control: 'color' },
