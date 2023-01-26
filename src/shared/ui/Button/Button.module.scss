@@ -10,6 +10,14 @@
   padding: 0;
 }
 
+.clearInverted {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  color: var(--inverted-primary-color)
+}
+
 .outline {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
