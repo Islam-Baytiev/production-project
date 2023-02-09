@@ -18,6 +18,7 @@ export function buildPlugins({ paths, isDev }: BuildOptions): webpack.WebpackPlu
       __IS_DEV__: JSON.stringify(isDev),
     }),
   ];
+
   if (isDev) {
     plugin.push(new webpack.HotModuleReplacementPlugin());
     plugin.push(new BundleAnalyzerPlugin({
