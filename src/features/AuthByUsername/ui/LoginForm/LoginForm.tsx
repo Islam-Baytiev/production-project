@@ -2,8 +2,8 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import { useTranslation } from 'react-i18next';
 import { Button, ThemeButton } from 'shared/ui/Button/Button';
 import { Input } from 'shared/ui/Input/Input';
-import { useDispatch, useSelector, useStore } from 'react-redux';
-import { memo, useCallback, useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { memo, useCallback } from 'react';
 import { Text, TextTheme } from 'shared/ui/Text/Text';
 import { DinamycModuleLoader, ReducerList }
   from 'shared/lib/components/DinamycModuleLoader/DinamycModuleLoader';
