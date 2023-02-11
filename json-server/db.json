@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first": "Ислам",
+    "lastname": "Web",
+    "age": 27,
+    "currency": "RUB",
+    "country": "Russia",
+    "city": "Grozny",
+    "username": "admin",
+    "avatar": "https://javarush.com/sapper/assets/images/site/homepage/BenefitsSectionCase2.gif"
+  }
 }
