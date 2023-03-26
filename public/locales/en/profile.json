@@ -10,5 +10,10 @@
   "Отменить": "Cancel",
   "Сохранить": "Save",
   "Введите имя пользователя": "Enter username",
-  "Введите ссылку на аватар": "Enter link to avatar"
+  "Введите ссылку на аватар": "Enter link to avatar",
+  "Серверная ошибка при сохранении": "Server error",
+  "Имя и фамилия обязательны": "Firstname and lastname is required",
+  "Некорректный возраст": "age is not correctly",
+  "Необходимо выбрать страну": "Country is required",
+  "Данные не указаны": "Data is required"
 }
