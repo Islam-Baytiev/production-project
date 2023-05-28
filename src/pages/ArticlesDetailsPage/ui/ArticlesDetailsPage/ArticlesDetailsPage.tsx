@@ -1,12 +1,22 @@
 import React, { memo } from 'react';
 import { useTranslation } from 'react-i18next';
+import { ArticleDetails } from 'entities/Article';
+import { useParams } from 'react-router-dom';
 
 const ArticlesDetailsPage = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('article-details');
+  const { id } = useParams<{id: string;}>();
+
+  if (!id) {
+    return (
+      <div>
+        {t('Статья не найдена')}
+      </div>
+    );
+  }
   return (
     <div>
-      {/* eslint-disable-next-line i18next/no-literal-string */}
-      <p>Details</p>
+      <ArticleDetails id={id} />
     </div>
   );
 };

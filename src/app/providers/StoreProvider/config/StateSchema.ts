@@ -9,6 +9,7 @@ import { ProfileSchema } from 'entities/Profile';
 import { AxiosInstance } from 'axios';
 import { To } from 'react-router-dom';
 import { NavigateOptions } from 'react-router';
+import { ArticleDetailsShema } from 'entities/Article';
 
 export interface StateSchema {
     counter: CounterSchema;
@@ -17,6 +18,7 @@ export interface StateSchema {
     // Асинхронные редюсеры
     loginForm?: LoginSchema;
     profile?: ProfileSchema;
+    articleDetails?: ArticleDetailsShema;
 }
 
 export type StateSchemaKey = keyof StateSchema;
