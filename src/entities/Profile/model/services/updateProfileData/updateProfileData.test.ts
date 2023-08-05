@@ -12,6 +12,7 @@ const data = {
   city: 'Grozny',
   currency: Currency.EUR,
   username: 'admin',
+  id: '1',
 };
 
 describe('updateProfileData.test', () => {

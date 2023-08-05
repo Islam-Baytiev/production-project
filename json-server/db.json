@@ -19,7 +19,9 @@
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
       "createdAt": "26.02.2022",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -100,6 +102,18 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "тест комментария",
+      "id": "h75y0wP"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "хелоу ворлд",
+      "id": "AXrKakr"
     }
   ],
   "users": [
@@ -108,7 +122,7 @@
       "username": "admin",
       "password": "123",
       "role": "ADMIN",
-      "avatar": "https://yt3.ggpht.com/ytc/AAUvwngFzM_Rf6MNwOnFcuphoj93k7VFjlIrj-kSMxbh=s900-c-k-c0x00ffffff-no-rj"
+      "avatar": "https://static.sobaka.ru/images/image/00/80/54/85/_normal.jpg?v=1485945088"
     },
     {
       "id": "2",
@@ -118,14 +132,28 @@
       "avatar": "https://cdn.metatime.com/landing/blog/1686575019blobid0.jpg"
     }
   ],
-  "profile": {
-    "first": "jgh",
-    "lastname": "asf",
-    "age": 465,
-    "currency": "RUB",
-    "country": "Belarus",
-    "city": "Moscow",
-    "username": "admin213",
-    "avatar": "https://yt3.ggpht.com/ytc/AAUvwngFzM_Rf6MNwOnFcuphoj93k7VFjlIrj-kSMxbh=s900-c-k-c0x00ffffff-no-rj"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "This",
+      "lastname": "Is Magic",
+      "age": 465,
+      "currency": "RUB",
+      "country": "Belarus",
+      "city": "Moscow",
+      "username": "Admin",
+      "avatar": "https://static.sobaka.ru/images/image/00/80/54/85/_normal.jpg?v=1485945088"
+    },
+    {
+      "id": "2",
+      "first": "Islam",
+      "lastname": "Baytiev",
+      "age": 28,
+      "currency": "RUB",
+      "country": "Belarus",
+      "city": "Moscow",
+      "username": "IslamBv",
+      "avatar": "https://cdn.metatime.com/landing/blog/1686575019blobid0.jpg"
+    }
+  ]
 }
